@@ -1,13 +1,13 @@
 import React from 'react';
-import './App.css'
-import PropsObjVal from './Ch02/R020_PropsObjVal'
+import ReactstrapFade from './Ch02/R043_ReactstrapFade';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기!!</p>
-      <PropsObjVal ObjectJson = {{react : "리액트",twohundred : "200"}}/>
+      <ReactstrapFade/>
     </div>
   );
 }
