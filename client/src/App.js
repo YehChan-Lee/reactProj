@@ -1,13 +1,11 @@
 import React from 'react';
-import ReactstrapFade from './Ch02/R043_ReactstrapFade';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Sweetalert2Confirm from './Ch02/R058_Sweetalert2Confirm';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <p>CSS 적용하기!!</p>
-      <ReactstrapFade/>
+      <Sweetalert2Confirm/>
     </div>
   );
 }
